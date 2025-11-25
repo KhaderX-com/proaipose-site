@@ -15,6 +15,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Pro AI Pose - Get Your Stylish Professional Poses",
   description: "Transform your photos into a professional photoshoot. Upload a single image and our AI will generate a variety of stylish and natural poses, perfect for your portfolio, social media, or just for fun.",
+  icons: {
+    icon: [
+      { url: '/logo/Pro_Pose.png', sizes: '32x32', type: 'image/png' },
+      { url: '/logo/Pro_Pose.png', sizes: '16x16', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/logo/Pro_Pose.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
 };
 
 export default function RootLayout({
