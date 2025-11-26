@@ -43,7 +43,14 @@ export default function PrivacyPolicy() {
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-semibold text-foreground mb-4">4. How We Use Your Information</h2>
+                        <h2 className="text-2xl font-semibold text-foreground mb-4">4. Account Deletion</h2>
+                        <p>
+                            You can delete your Pro AI Pose account at any time directly from the app: Settings → Account → Delete Account. This permanently deletes your account, personal information, and generated photos from our servers.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2 className="text-2xl font-semibold text-foreground mb-4">5. How We Use Your Information</h2>
                         <p>
                             We use the collected information for the following purposes:
                         </p>
@@ -56,7 +63,7 @@ export default function PrivacyPolicy() {
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-semibold text-foreground mb-4">5. Data Security</h2>
+                        <h2 className="text-2xl font-semibold text-foreground mb-4">6. Data Security</h2>
                         <p>
                             We implement appropriate technical and organizational security measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction. However, please note that no method of transmission over the Internet or method of electronic storage is 100% secure.
                         </p>
