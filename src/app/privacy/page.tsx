@@ -45,7 +45,7 @@ export default function PrivacyPolicy() {
                     <section>
                         <h2 className="text-2xl font-semibold text-foreground mb-4">4. Account Deletion</h2>
                         <p>
-                            You can delete your Pro AI Pose account at any time directly from the app: Settings → Account → Delete Account. This permanently deletes your account, personal information, and generated photos from our servers.
+                            You can delete your Pro AI Pose account at any time directly from the app: Profile → Settings → Account → Delete Account. This permanently deletes your account, personal information, and generated photos from our servers.
                         </p>
                     </section>
 
