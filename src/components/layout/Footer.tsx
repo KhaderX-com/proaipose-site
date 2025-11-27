@@ -22,8 +22,10 @@ export function Footer() {
                     &copy; {new Date().getFullYear()} Pro AI Pose. All rights reserved.
                 </div>
                 <div className="flex flex-wrap gap-4 md:gap-6 justify-center">
+                    <Link href="/guides/ai-photography" className="text-muted-foreground hover:text-primary transition-colors text-sm">Guides</Link>
                     <Link href="/use-cases" className="text-muted-foreground hover:text-primary transition-colors text-sm">Use Cases</Link>
                     <Link href="/blog" className="text-muted-foreground hover:text-primary transition-colors text-sm">Blog</Link>
+                    <Link href="/about" className="text-muted-foreground hover:text-primary transition-colors text-sm">About</Link>
                     <Link href="/faq" className="text-muted-foreground hover:text-primary transition-colors text-sm">FAQ</Link>
                     <Link href="/contact" className="text-muted-foreground hover:text-primary transition-colors text-sm">Contact</Link>
                     <Link href="/privacy" className="text-muted-foreground hover:text-primary transition-colors text-sm">Privacy</Link>
