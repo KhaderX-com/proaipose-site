@@ -1,6 +1,24 @@
 import React from "react";
+import { Metadata } from "next";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+
+export const metadata: Metadata = {
+    title: "Terms of Service - User Agreement",
+    description: "Read the Pro AI Pose Terms of Service. Understand your rights and responsibilities when using our AI-powered photography and posing application.",
+    openGraph: {
+        title: "Pro AI Pose Terms of Service",
+        description: "Terms and conditions for using Pro AI Pose services.",
+        url: "https://proaipose.com/terms",
+    },
+    alternates: {
+        canonical: "https://proaipose.com/terms",
+    },
+    robots: {
+        index: true,
+        follow: true,
+    },
+};
 
 export default function TermsOfService() {
     return (

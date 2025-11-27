@@ -21,9 +21,13 @@ export function Footer() {
                 <div className="text-muted-foreground text-sm">
                     &copy; {new Date().getFullYear()} Pro AI Pose. All rights reserved.
                 </div>
-                <div className="flex gap-6">
-                    <a href="/privacy" className="text-muted-foreground hover:text-primary transition-colors">Privacy Policy</a>
-                    <a href="/terms" className="text-muted-foreground hover:text-primary transition-colors">Terms of Service</a>
+                <div className="flex flex-wrap gap-4 md:gap-6 justify-center">
+                    <Link href="/use-cases" className="text-muted-foreground hover:text-primary transition-colors text-sm">Use Cases</Link>
+                    <Link href="/blog" className="text-muted-foreground hover:text-primary transition-colors text-sm">Blog</Link>
+                    <Link href="/faq" className="text-muted-foreground hover:text-primary transition-colors text-sm">FAQ</Link>
+                    <Link href="/contact" className="text-muted-foreground hover:text-primary transition-colors text-sm">Contact</Link>
+                    <Link href="/privacy" className="text-muted-foreground hover:text-primary transition-colors text-sm">Privacy</Link>
+                    <Link href="/terms" className="text-muted-foreground hover:text-primary transition-colors text-sm">Terms</Link>
                 </div>
             </div>
         </footer>

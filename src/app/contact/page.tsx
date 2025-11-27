@@ -1,7 +1,21 @@
 import React from "react";
+import { Metadata } from "next";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Mail } from "lucide-react";
+
+export const metadata: Metadata = {
+    title: "Contact Us - Get Support & Connect",
+    description: "Get in touch with the Pro AI Pose team for support, feature requests, partnership opportunities, or general inquiries. We're here to help you achieve professional photography results.",
+    openGraph: {
+        title: "Contact Pro AI Pose - Support & Inquiries",
+        description: "Reach out to our team for support, partnerships, or questions about Pro AI Pose.",
+        url: "https://proaipose.com/contact",
+    },
+    alternates: {
+        canonical: "https://proaipose.com/contact",
+    },
+};
 
 export default function ContactPage() {
     return (

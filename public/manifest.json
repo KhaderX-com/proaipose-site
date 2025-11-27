@@ -1,0 +1,46 @@
+{
+    "name": "Pro AI Pose - AI-Powered Professional Posing Assistant",
+    "short_name": "Pro AI Pose",
+    "description": "Transform your photos into a professional photoshoot with AI. Get stylish, natural poses for your portfolio and social media.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#06b6d4",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/logo/Pro_Pose.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/logo/Pro_Pose.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": [
+        "photo",
+        "productivity",
+        "lifestyle"
+    ],
+    "shortcuts": [
+        {
+            "name": "Use Cases",
+            "url": "/use-cases",
+            "description": "Explore Pro AI Pose use cases"
+        },
+        {
+            "name": "Blog",
+            "url": "/blog",
+            "description": "Read photography tips and guides"
+        },
+        {
+            "name": "FAQ",
+            "url": "/faq",
+            "description": "Get answers to common questions"
+        }
+    ]
+}

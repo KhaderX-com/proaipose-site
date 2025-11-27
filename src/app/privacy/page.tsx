@@ -1,6 +1,24 @@
 import React from "react";
+import { Metadata } from "next";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+
+export const metadata: Metadata = {
+    title: "Privacy Policy - Your Data Protection Rights",
+    description: "Learn how Pro AI Pose collects, uses, and protects your personal data. We're committed to GDPR compliance and ensuring your privacy and security.",
+    openGraph: {
+        title: "Pro AI Pose Privacy Policy",
+        description: "Understanding how we protect your data and respect your privacy.",
+        url: "https://proaipose.com/privacy",
+    },
+    alternates: {
+        canonical: "https://proaipose.com/privacy",
+    },
+    robots: {
+        index: true,
+        follow: true,
+    },
+};
 
 export default function PrivacyPolicy() {
     return (
